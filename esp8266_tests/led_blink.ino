@@ -1,4 +1,4 @@
-int outPin = 13; //on board D7
+int outPin = 12; //on board D7
 
 void setup() {
 
