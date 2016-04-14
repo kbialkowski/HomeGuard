@@ -1,3 +1,6 @@
+/////
+//HC-SR501 pir sensor
+////
 
 int pirPin = 5;    //PIR pin
 int ledPin = 13;   //led pin
@@ -6,8 +9,8 @@ int state = LOW;
 int i = 0;
 
 /////////////////////////////
-//SETUP
-void setup(){
+//SETUP 
+void setup(){ 
   Serial.begin(9600);
   pinMode(pirPin, INPUT);
   pinMode(ledPin, OUTPUT);
