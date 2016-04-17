@@ -11,7 +11,7 @@ int i = 0;
 /////////////////////////////
 //SETUP 
 void setup(){ 
-  Serial.begin(9600);
+  Serial.begin(9600); 
   pinMode(pirPin, INPUT);
   pinMode(ledPin, OUTPUT);
 
@@ -28,6 +28,8 @@ void setup(){
     delay(1000);
     i++;
   }
+
+  Serial.println("Ready !!!");  
 }
 
 ////////////////////////////
